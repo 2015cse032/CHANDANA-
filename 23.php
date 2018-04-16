@@ -16,5 +16,5 @@ while($row=mysqli_fetch_array($result,MYSQLI_ASSOC))
 {
 echo '<input type="radio" id="name" name="candidate" value="'.$row['idno'].'">'. '</input><br />';
 }
-echo '</form>';
+echo '</form>'; hhgh
 ?>
